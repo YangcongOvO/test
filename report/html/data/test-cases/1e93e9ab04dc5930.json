@@ -1,0 +1,96 @@
+{
+  "uid" : "1e93e9ab04dc5930",
+  "name" : "test_ja_check_maxlength[fax]",
+  "fullName" : "scripts.test_webform_text.TestWebformText#test_ja_check_maxlength",
+  "historyId" : "767a051189e6bc71801b193fd14e49c8",
+  "time" : {
+    "start" : 1592214279733,
+    "stop" : 1592214279738,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1592214230927,
+      "stop" : 1592214248248,
+      "duration" : 17321
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1592214280209,
+      "stop" : 1592214286441,
+      "duration" : 6232
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_webform_text"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWebformText"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4IC57NM"
+  }, {
+    "name" : "thread",
+    "value" : "2828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_webform_text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "'fax'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d74d1c72bbfb9088",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592213999512,
+        "stop" : 1592213999521,
+        "duration" : 9
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e93e9ab04dc5930.json",
+  "parameterValues" : [ "'fax'" ]
+}

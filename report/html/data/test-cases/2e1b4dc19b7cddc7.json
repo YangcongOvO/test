@@ -1,0 +1,96 @@
+{
+  "uid" : "2e1b4dc19b7cddc7",
+  "name" : "test_ja_check_text[opportunity title]",
+  "fullName" : "scripts.test_webform_text.TestWebformText#test_ja_check_text",
+  "historyId" : "695fffdf073001f7afe16a9a3ab01160",
+  "time" : {
+    "start" : 1592214271315,
+    "stop" : 1592214271363,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1592214230927,
+      "stop" : 1592214248248,
+      "duration" : 17321
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1592214280209,
+      "stop" : 1592214286441,
+      "duration" : 6232
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_webform_text"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWebformText"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4IC57NM"
+  }, {
+    "name" : "thread",
+    "value" : "2828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_webform_text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "'opportunity title'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "42e24d18e08435dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592213990580,
+        "stop" : 1592213990625,
+        "duration" : 45
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e1b4dc19b7cddc7.json",
+  "parameterValues" : [ "'opportunity title'" ]
+}

@@ -1,0 +1,124 @@
+﻿button:
+  agree_notice en: &agree_notice
+    attribute: "//div[@class='btn btn-notice']"
+  agree_notice gl: *agree_notice
+  agree_notice ja: *agree_notice
+
+  agree en: &agree
+    attribute: "//input[@id='edit-agree']"
+  agree gl: *agree
+  agree ja: *agree
+
+  submit en: &submit
+    attribute: "//input[@id='edit-actions-submit']"
+  submit gl: *submit
+  submit ja: *submit
+
+selector:
+  deal_type en: &deal_type
+    attribute: "//select[@id='edit-deal-type']"
+    value:
+      - Deal Type (Required)
+      - M&A
+      - Joint Venture
+      - Product Acquisition
+      - Licensing
+      - Research Collaboration
+      - Co-Commercialization
+      - Equity/Debt finance with board observer right and 8weeks prior to closing date
+      - To be determinded
+      - Others
+  deal_type gl: *deal_type
+  deal_type ja:
+    <<: *deal_type
+    value:
+      - 契約の種類 (必須)
+      - M&A
+      - ジョイントベンチャー
+      - 製品導入
+      - ライセンシング
+      - 研究提携
+      - 共同商業化
+      - Equity/Debt finance with board observer right and 8weeks prior to closing date
+      - 検討中
+      - その他
+
+  opportunity_type en: &opportunity_type
+    attribute: "//select[@id='edit-opportunity-type']"
+    value:
+      - Opportunity Type (Required)
+      - Compound/Biologics
+      - Platform Technology
+      - Diagnostics
+      - Device
+      - Others
+  opportunity_type gl: *opportunity_type
+  opportunity_type ja:
+    <<: *opportunity_type
+    value:
+      - 案件の種類 (必須)
+      - 化合物／生物学的製剤
+      - プラットフォームテクノロジー
+      - 診断
+      - デバイス
+      - その他
+
+  current_development en: &current_development
+    attribute: "//select[@id='edit-current-development-phase']"
+    value:
+      - Current Development Phase (Required)
+      - Discovery
+      - Pre-clinical
+      - Investigational New Drug (IND)
+      - Phase I
+      - Phase II
+      - Phase III
+      - Pre-registration
+      - New Drug Application
+      - Marketed
+      - Others
+  current_development gl: *current_development
+  current_development ja:
+    <<: *current_development
+    value:
+      - 最も進んでいるアセットのステージ (必須)
+      - 研究段階
+      - 前臨床段階
+      - IND
+      - 第一相
+      - 第二相
+      - 第三相
+      - 申請前
+      - NDA承認申請中
+      - 販売中
+      - その他
+
+  number_of_assets en: &number_of_assets
+    attribute: "//select[@id='edit-number-of-assets']"
+    value:
+      - Number of Assets (Required)
+      - Single Asset
+      - Multiple assets
+  number_of_assets gl: *number_of_assets
+  number_of_assets ja:
+    <<: *number_of_assets
+    value:
+      - アセットの数 (必須)
+      - 一つのアセット
+      - 複数のアセット
+
+checkbox en:
+  A: "//div[@id='edit-areas-of-interest']/div/input[@value='A']"
+  B: "//div[@id='edit-areas-of-interest']/div/input[@value='B']"
+  C: "//div[@id='edit-areas-of-interest']/div/input[@value='C']"
+  D: "//div[@id='edit-areas-of-interest']/div/input[@value='D']"
+  E: "//div[@id='edit-areas-of-interest']/div/input[@value='E']"
+  F: "//div[@id='edit-areas-of-interest']/div/input[@value='F']"
+  G: "//div[@id='edit-areas-of-interest']/div/input[@value='G']"
+  H: "//div[@id='edit-areas-of-interest']/div/input[@value='H']"
+  I: "//div[@id='edit-areas-of-interest']/div/input[@value='I']"
+  J: "//div[@id='edit-areas-of-interest']/div/input[@value='J']"
+  K: "//div[@id='edit-areas-of-interest']/div/input[@value='K']"
+  L: "//div[@id='edit-areas-of-interest']/div/input[@value='L']"
+  M: "//div[@id='edit-areas-of-interest']/div/input[@value='M']"
+  N: "//div[@id='edit-areas-of-interest']/div/input[@value='N']"

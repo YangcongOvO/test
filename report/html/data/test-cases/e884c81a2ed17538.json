@@ -1,0 +1,96 @@
+{
+  "uid" : "e884c81a2ed17538",
+  "name" : "test_en_check_text[attachment title]",
+  "fullName" : "scripts.test_webform_text.TestWebformText#test_en_check_text",
+  "historyId" : "eba0f0f1a60f3a9448f4f2c4dca79178",
+  "time" : {
+    "start" : 1592214268661,
+    "stop" : 1592214268707,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1592214230927,
+      "stop" : 1592214248248,
+      "duration" : 17321
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1592214280209,
+      "stop" : 1592214286441,
+      "duration" : 6232
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_webform_text"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWebformText"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4IC57NM"
+  }, {
+    "name" : "thread",
+    "value" : "2828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_webform_text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "'attachment title'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e0ffd1393a1cb0f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592213987921,
+        "stop" : 1592213987967,
+        "duration" : 46
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e884c81a2ed17538.json",
+  "parameterValues" : [ "'attachment title'" ]
+}

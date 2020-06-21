@@ -1,0 +1,130 @@
+﻿button:
+  agree_notice en: &agree_notice
+    attribute: "//div[@class='btn btn-notice']"
+  agree_notice gl: *agree_notice
+  agree_notice ja: *agree_notice
+
+  agree en: &agree
+    attribute: "//input[@id='edit-agree']"
+  agree gl: *agree
+  agree ja: *agree
+
+  submit en: &submit
+    attribute: "//input[@id='edit-actions-submit']"
+  submit gl: *submit
+  submit ja: *submit
+
+
+text:
+  title en: &title
+    attribute: "//h1[@class='page-title']"
+    content: "Registration Form"
+  title gl: *title
+  title ja:
+    <<: *title
+    content: "登録フォーム"
+
+  body en: &body
+    attribute: "//div[@id='edit-prompt-message']/p"
+    content: "Please fill out the form and agree with the submission terms."
+  body gl: *body
+  body ja:
+    <<: *body
+    content: "下記の応募規約を確認の上、登録フォームにご記入ください。"
+
+  company en: &company0
+    attribute: "//div[@id='edit-company-information']//strong"
+    content: "Company Information"
+  company gl: *company0
+  company ja: *company0
+
+  contact title en: &contact_title
+    attribute: "//div[@id='edit-contact-information']//strong"
+    content: "Contact Information"
+  contact title gl: *contact_title
+  contact title ja: *contact_title
+
+  opportunity title en: &opportunity_title
+    attribute: "//div[@id='edit-opportunity-information']//strong"
+    content: "Opportunity Information"
+  opportunity title gl: *opportunity_title
+  opportunity title ja: *opportunity_title
+
+  opportunity subtitle en: &opportunity_subtitle
+    attribute: "//div[@id='edit-opportunity-information']/p[2]"
+    content: "Please submit only one opportunity for each inquiry."
+  opportunity subtitle gl: *opportunity_subtitle
+  opportunity subtitle ja:
+    <<: *opportunity_subtitle
+    content: "一回のお問い合わせフォームにつき、一つの案件をご入力ください。"
+
+  area title en: &area_title
+    attribute: "//fieldset[@id='edit-areas-of-interest--wrapper']//span"
+    content: "Areas of Interest (Required)"
+  area title gl: *area_title
+  area title ja:
+    <<: *area_title
+    content: "Areas of Interest (必須)"
+
+  attachment title en: &attachment_title
+    attribute: "//label[@id='edit-attachment--label']"
+    content: "Attachment (Required)"
+  attachment title gl: *attachment_title
+  attachment title ja:
+    <<: *attachment_title
+    content: "添付資料 (必須)"
+
+  attachment description en: &attachment_description
+    attribute: "//div[@id='edit-attachment']/div[1]"
+    content: |-
+      Maximum 3 files.
+      3 MB limit.
+      Allowed types: gif jpg png bmp eps tif pict psd txt rtf html odf pdf doc docx ppt pptx xls xlsx xml avi mov mp3 ogg wav bz2 dmg gz jar rar sit svg tar zip.
+  attachment description gl: *attachment_description
+  attachment description ja:
+    <<: *attachment_description
+    content: |-
+      最大3ファイル
+      3 MB 制限
+      許可されたタイプ: gif jpg png bmp eps tif pict psd txt rtf html odf pdf doc docx ppt pptx xls xlsx xml avi mov mp3 ogg wav bz2 dmg gz jar rar sit svg tar zip
+
+  submission title en: &submission_title
+    attribute: "//label[@id='edit-attachment--label']"
+    content: "Attachment (Required)"
+  submission title gl: *submission_title
+  submission title ja:
+    <<: *submission_title
+    content: "添付資料 (必須)"
+
+  submission subtitle en: &submission_subtitle
+    attribute: "//div[@id='edit-submission-terms']/p[2]"
+    content: "Please agree to the following to complete this application form."
+  submission subtitle gl: *submission_subtitle
+  submission subtitle ja:
+    <<: *submission_subtitle
+    content: "応募に際し、以下の内容にご同意ください。"
+
+  submission content en: &submission_content
+    attribute: "//div[@id='edit-submission-terms']/p[3]"
+    content:  |-
+      1. I represent and warrant that I have the authority to disclose this information to Astellas.
+      2. I represent and warrant that use of the provided information will not infringe the intellectual property rights of any third party.
+      3. I acknowledge and agree that Astellas will not treat the information as confidential or proprietary, and thus will not be restricted from using such information or disclosing such information to third parties.
+      4. I acknowledge and agree that there is no guarantee that Astellas will pursue an opportunity with me, or that Astellas will reply to my submission. Any decision to pursue an opportunity with me shall be made by Astellas in its sole discretion.
+      5. I acknowledge that I have read and agree to Astellas' Privacy Policy at https://www.astellas.com/jp/en/privacy-policy/.
+  submission content gl:
+    <<: *submission_content
+    content:  |-
+      1. I represent and warrant that I have the authority to disclose this information to Astellas.
+      2. I represent and warrant that use of the provided information will not infringe the intellectual property rights of any third party.
+      3. I acknowledge and agree that Astellas will not treat the information as confidential or proprietary, and thus will not be restricted from using such information or disclosing such information to third parties.
+      4. I acknowledge and agree that there is no guarantee that Astellas will pursue an opportunity with me, or that Astellas will reply to my submission. Any decision to pursue an opportunity with me shall be made by Astellas in its sole discretion.
+      5. I acknowledge that I have read and agree to Astellas' Privacy Policy at https://www.astellas.com/en/privacy-policy/.
+  submission content ja:
+    <<: *submission_content
+    content:  |-
+      1. この応募に際し提出する情報（以下「本情報」）について、アステラス製薬株式会社（以下「アステラス」）に提供する権限を有しています。
+      2. 本情報のアステラスへの提供およびアステラスによる本情報の利用・処分が第三者の知的財産権、契約上の権利その他の権利を侵害するものではないことを確約します。
+      3. アステラスが本情報に関して、機密保持義務を負わないことを承知します。
+      4. この応募が、アステラスとの何らかのビジネス等の機会を保証するものではなく、その判断はアステラスに委ねられることを承知します。
+      5. アステラスが個人情報保護ポリシーに従い個人情報を取り扱うことを承知します。

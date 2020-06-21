@@ -1,0 +1,96 @@
+{
+  "uid" : "857bea91b18dda3f",
+  "name" : "test_gl_check_placeholder[territory]",
+  "fullName" : "scripts.test_webform_text.TestWebformText#test_gl_check_placeholder",
+  "historyId" : "e626de2eec470b1cd87f24179ef94fe1",
+  "time" : {
+    "start" : 1592214277403,
+    "stop" : 1592214277436,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1592214230927,
+      "stop" : 1592214248248,
+      "duration" : 17321
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1592214280209,
+      "stop" : 1592214286441,
+      "duration" : 6232
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_webform_text"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWebformText"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4IC57NM"
+  }, {
+    "name" : "thread",
+    "value" : "2828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_webform_text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "'territory'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a45a3d3dc501bad7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592213996806,
+        "stop" : 1592213996823,
+        "duration" : 17
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "857bea91b18dda3f.json",
+  "parameterValues" : [ "'territory'" ]
+}

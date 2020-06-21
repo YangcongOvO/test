@@ -1,0 +1,96 @@
+{
+  "uid" : "e27b16aa4afeb027",
+  "name" : "test_gl_check_maxlength[territory]",
+  "fullName" : "scripts.test_webform_text.TestWebformText#test_gl_check_maxlength",
+  "historyId" : "5d3d871ea5ca53b02e3f5bcd360d1038",
+  "time" : {
+    "start" : 1592214279411,
+    "stop" : 1592214279416,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1592214230927,
+      "stop" : 1592214248248,
+      "duration" : 17321
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1592214280209,
+      "stop" : 1592214286441,
+      "duration" : 6232
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_webform_text"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWebformText"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4IC57NM"
+  }, {
+    "name" : "thread",
+    "value" : "2828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_webform_text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "'territory'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ae74f80be8e99a03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592213998971,
+        "stop" : 1592213998981,
+        "duration" : 10
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e27b16aa4afeb027.json",
+  "parameterValues" : [ "'territory'" ]
+}

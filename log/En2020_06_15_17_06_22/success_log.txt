@@ -1,0 +1,24 @@
+'cdp': A 
+'dt': G
+'aoi': A
+
+'cdp': A 
+'dt': G
+'aoi': M
+
+'cdp': A 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': A 
+'dt': G
+'aoi': L
+
+'cdp': A 
+'dt': G
+'aoi': ['B', 'L']
+
+'cdp': A 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+

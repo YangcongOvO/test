@@ -1,0 +1,79 @@
+#The url of webform
+driver gl:
+  URL: "https://prodastellascomuat.ast001.acsitefactory.com/en/partnering/register-form"
+driver en:
+  URL: "https://prodastellascomjpuat.ast001.acsitefactory.com/jp/en/partnering/register-form"
+driver ja:
+  URL: "https://prodastellascomjpuat.ast001.acsitefactory.com/jp/ja/partnering/register-form"
+
+
+
+#if you want to fill english data, use "en". ja data use "ja"
+webform_data: "en"
+
+#the path of upload file
+file: 'C://Users/cici/Desktop/test.doc'
+
+#the conditions you want to combine
+condition:
+  cdp:
+#    - "A"
+#    - "B"
+    - "C"
+#    - "D"
+#    - "E"
+#    - "F"
+#    - "G"
+#    - "H"
+#    - "I"
+#    - "J"
+  dt:
+#    - "A"
+    - "G"
+  aoi:
+#    - "A"
+#    - - "A"
+#      - "B"
+#      - "C"
+#      - "D"
+#      - "E"
+#      - "F"
+#      - "G"
+#      - "H"
+#      - "I"
+#      - "J"
+#      - "K"
+#      - "N"
+    - "M"
+#    - - "M"
+#      - "L"
+#    - - "A"
+#      - "B"
+#      - "C"
+#      - "D"
+#      - "E"
+#      - "F"
+#      - "G"
+#      - "H"
+#      - "I"
+#      - "J"
+#      - "K"
+#      - "L"
+#      - "M"
+#      - "N"
+#    - "L"
+#    - - "B"
+#      - "L"
+#    - - "A"
+#      - "B"
+#      - "C"
+#      - "D"
+#      - "E"
+#      - "F"
+#      - "G"
+#      - "H"
+#      - "I"
+#      - "J"
+#      - "K"
+#      - "L"
+#      - "N"

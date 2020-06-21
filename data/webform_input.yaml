@@ -1,0 +1,248 @@
+﻿button:
+  agree_notice en: &agree_notice
+    attribute: "//div[@class='btn btn-notice']"
+  agree_notice gl: *agree_notice
+  agree_notice ja: *agree_notice
+
+  agree en: &agree
+    attribute: "//input[@id='edit-agree']"
+  agree gl: *agree
+  agree ja: *agree
+
+  submit en: &submit
+    attribute: "//input[@id='edit-actions-submit']"
+  submit gl: *submit
+  submit ja: *submit
+
+
+input_box:
+  company en: &company
+    attribute: "//input[@id='edit-company-name']"
+    placeholder: "Company Name (Required)"
+    error_message: "Please enter Company Name within 100 characters."
+    maxlength: 100
+  company gl: *company
+  company ja:
+    <<: *company
+    placeholder: "会社名 (必須)"
+    error_message: "会社名は100文字以内で入力してください。"
+
+  URL en: &URL
+    attribute: "//input[@id='edit-organization-website']"
+    placeholder: "Organization Website (e.g: http://www.example.com)"
+    error_message: Please enter Organization Website within 100 characters and starting with "http(s)://".
+    maxlength: 100
+  URL gl: *URL
+  URL ja:
+    <<: *URL
+    placeholder: "会社のWebサイト (e.g: http://www.example.com)"
+    error_message: "会社のWebサイトは「http(s)://」を含め100文字以内で入力してください。"
+
+  country en: &country
+    attribute: "//input[@id='edit-country']"
+    placeholder: "Country (Required)"
+    error_message: "Please enter Country within 20 characters."
+    maxlength: 20
+  country gl: *country
+  country ja:
+    <<: *country
+    placeholder: "国 (必須)"
+    error_message: "国名は20文字以内で入力してください。"
+
+  address1 en: &address1
+    attribute: "//input[@id='edit-business-address-1']"
+    placeholder: "Business Address 1 (Required)"
+    error_message: "Please enter Business Address 1 within 100 characters."
+    maxlength: 100
+  address1 gl: *address1
+  address1 ja:
+    <<: *address1
+    placeholder: "住所1 (必須)"
+    error_message: "住所1は100文字以内で入力してください。"
+
+  address2 en: &address2
+    attribute: "//input[@id='edit-business-address-2']"
+    placeholder: "Business Address 2"
+    error_message: Null
+    maxlength: 100
+  address2 gl: *address2
+  address2 ja:
+    <<: *address2
+    placeholder: "住所2"
+
+  postal_code en: &postal_code
+    attribute: "//input[@id='edit-postal-code']"
+    placeholder: "Postal code"
+    error_message: "Please enter a Postal Code using half-width numbers."
+    maxlength: 200
+  postal_code gl: *postal_code
+  postal_code ja:
+    <<: *postal_code
+    placeholder: "郵便番号"
+    error_message: "郵便番号は半角数字で入力してください。"
+
+  first_name en: &first_name
+    attribute: "//input[@id='edit-first-name']"
+    placeholder: "First Name (Required)"
+    error_message: "Please enter First Name within 20 characters."
+    maxlength: 20
+  first_name gl: *first_name
+  first_name ja:
+    <<: *first_name
+    placeholder: "名 (必須)"
+    error_message: "名は20文字以内で入力してください。"
+
+  last_name en: &last_name
+    attribute: "//input[@id='edit-last-name']"
+    placeholder: "Last Name (Required)"
+    error_message: "Please enter Last Name within 20 characters."
+    maxlength: 20
+  last_name gl: *last_name
+  last_name ja:
+    <<: *last_name
+    placeholder: "性 (必須)"
+    error_message: "姓は20文字以内で入力してください。"
+
+  email en: &email
+    attribute: "//input[@id='edit-e-mail-address']"
+    placeholder: "E-mail Address (Required)"
+    error_message: "Please enter E-mail Address correctly."
+    maxlength: 255
+  email gl: *email
+  email ja:
+    <<: *email
+    placeholder: "Eメールアドレス (必須)"
+    error_message: "Eメールアドレスを正しく入力してください。"
+
+  phone en: &phone
+    attribute: "//input[@id='edit-phone']"
+    placeholder: "Phone (Required)"
+    error_message: "Please enter a Phone Number using half-width numbers."
+    maxlength: 100
+  phone gl: *phone
+  phone ja:
+    <<: *phone
+    placeholder: "電話番号 (必須)"
+    error_message: "電話番号は半角数字で入力してください。"
+
+  fax en: &fax
+    attribute: "//input[@id='edit-fax']"
+    placeholder: "Fax"
+    error_message: "Please enter a Fax Number using half-width numbers."
+    maxlength: 100
+  fax gl: *fax
+  fax ja:
+    <<: *fax
+    placeholder: "ファクシミリ"
+    error_message: "ファクシミリは半角数字で入力してください。"
+
+  stage en: &stage
+    attribute: "//input[@id='edit-stage-of-funding']"
+    placeholder: "Stage of Funding（Seed, SeriesA, B, C)"
+    error_message: None
+    maxlength: 50
+  stage gl: *stage
+  stage ja:
+    <<: *stage
+    placeholder: "資金調達のステージ（Seed, SeriesA, B, C)"
+
+  total en: &total
+    attribute: "//input[@id='edit-total-amount-of-funding']"
+    placeholder: "Total amount of funding"
+    error_message: None
+    maxlength: 20
+  total gl: *total
+  total ja:
+    <<: *total
+    placeholder: "調達額"
+
+  closing en: &closing
+    attribute: "//input[@id='edit-closing-timing']"
+    placeholder: "Closing Timing"
+    error_message: None
+    maxlength: 20
+  closing gl: *closing
+  closing ja:
+    <<: *closing
+    placeholder: "終了時期"
+
+  opportunity en: &opportunity
+    attribute: "//input[@id='edit-opportunity-name']"
+    placeholder: "Opportunity Name (Required)"
+    error_message: "Please enter Opportunity Name within 50 characters."
+    maxlength: 50
+  opportunity gl: *opportunity
+  opportunity ja:
+    <<: *opportunity
+    placeholder: "案件名 (必須)"
+    error_message: "案件名は50文字以内で入力してください。"
+
+  primary en: &primary
+    attribute: "//input[@id='edit-primary-indication']"
+    placeholder: "Primary Indication"
+    error_message: None
+    maxlength: 100
+  primary gl: *primary
+  primary ja:
+    <<: *primary
+    placeholder: "第一適応症"
+
+  secondary en: &secondary
+    attribute: "//input[@id='edit-secondary-indication']"
+    placeholder: "Secondary indication"
+    error_message: None
+    maxlength: 100
+  secondary gl: *secondary
+  secondary ja:
+    <<: *secondary
+    placeholder: "第二適応症"
+
+  brand_name en: &brand_name
+    attribute: "//input[@id='edit-brand-name']"
+    placeholder: "Brand name"
+    error_message: None
+    maxlength: 100
+  brand_name gl: *brand_name
+  brand_name ja:
+    <<: *brand_name
+    placeholder: "ブランドネーム"
+
+  action en: &action
+    attribute: "//textarea[@id='edit-mechanism-of-action']"
+    placeholder: "Mechanism of Action"
+    error_message: None
+    maxlength: 500
+  action gl: *action
+  action ja:
+    <<: *action
+    placeholder: "作用メカニズム"
+
+  description en: &description
+    attribute: "//textarea[@id='edit-opportunity-description']"
+    placeholder: "Opportunity Description"
+    error_message: None
+    maxlength: 500
+  description gl: *description
+  description ja:
+    <<: *description
+    placeholder: "案件の概要"
+
+  launch_year en: &launch_year
+    attribute: "//input[@id='edit-expected-launch-year']"
+    placeholder: "Expected Launch Year"
+    error_message: None
+    maxlength: 100
+  launch_year gl: *launch_year
+  launch_year ja:
+    <<: *launch_year
+    placeholder: "期待される発売開始年"
+
+  territory en: &territory
+    attribute: "//input[@id='edit-territory']"
+    placeholder: "Territory"
+    error_message: None
+    maxlength: 20
+  territory gl: *territory
+  territory ja:
+    <<: *territory
+    placeholder: "地域"

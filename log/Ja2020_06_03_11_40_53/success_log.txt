@@ -1,0 +1,320 @@
+'cdp': A 
+'dt': A
+'aoi': A
+
+'cdp': A 
+'dt': G
+'aoi': A
+
+'cdp': D 
+'dt': A
+'aoi': A
+
+'cdp': D 
+'dt': G
+'aoi': A
+
+'cdp': E 
+'dt': A
+'aoi': A
+
+'cdp': E 
+'dt': G
+'aoi': A
+
+'cdp': I 
+'dt': A
+'aoi': A
+
+'cdp': I 
+'dt': G
+'aoi': A
+
+'cdp': J 
+'dt': A
+'aoi': A
+
+'cdp': J 
+'dt': G
+'aoi': A
+
+'cdp': A 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'N']
+
+'cdp': A 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'N']
+
+'cdp': D 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'N']
+
+'cdp': D 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'N']
+
+'cdp': E 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'N']
+
+'cdp': E 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'N']
+
+'cdp': I 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'N']
+
+'cdp': I 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'N']
+
+'cdp': J 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'N']
+
+'cdp': J 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'N']
+
+'cdp': A 
+'dt': A
+'aoi': M
+
+'cdp': A 
+'dt': G
+'aoi': M
+
+'cdp': D 
+'dt': A
+'aoi': M
+
+'cdp': D 
+'dt': G
+'aoi': M
+
+'cdp': E 
+'dt': A
+'aoi': M
+
+'cdp': E 
+'dt': G
+'aoi': M
+
+'cdp': I 
+'dt': A
+'aoi': M
+
+'cdp': I 
+'dt': G
+'aoi': M
+
+'cdp': J 
+'dt': A
+'aoi': M
+
+'cdp': J 
+'dt': G
+'aoi': M
+
+'cdp': A 
+'dt': A
+'aoi': ['M', 'L']
+
+'cdp': A 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': D 
+'dt': A
+'aoi': ['M', 'L']
+
+'cdp': D 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': E 
+'dt': A
+'aoi': ['M', 'L']
+
+'cdp': E 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': I 
+'dt': A
+'aoi': ['M', 'L']
+
+'cdp': I 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': J 
+'dt': A
+'aoi': ['M', 'L']
+
+'cdp': J 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': A 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+
+'cdp': A 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+
+'cdp': D 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+
+'cdp': D 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+
+'cdp': E 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+
+'cdp': E 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+
+'cdp': I 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+
+'cdp': I 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+
+'cdp': J 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+
+'cdp': J 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+
+'cdp': A 
+'dt': A
+'aoi': L
+
+'cdp': A 
+'dt': G
+'aoi': L
+
+'cdp': D 
+'dt': A
+'aoi': L
+
+'cdp': D 
+'dt': G
+'aoi': L
+
+'cdp': E 
+'dt': A
+'aoi': L
+
+'cdp': E 
+'dt': G
+'aoi': L
+
+'cdp': I 
+'dt': A
+'aoi': L
+
+'cdp': I 
+'dt': G
+'aoi': L
+
+'cdp': J 
+'dt': A
+'aoi': L
+
+'cdp': J 
+'dt': G
+'aoi': L
+
+'cdp': A 
+'dt': A
+'aoi': ['B', 'L']
+
+'cdp': A 
+'dt': G
+'aoi': ['B', 'L']
+
+'cdp': D 
+'dt': A
+'aoi': ['B', 'L']
+
+'cdp': D 
+'dt': G
+'aoi': ['B', 'L']
+
+'cdp': E 
+'dt': A
+'aoi': ['B', 'L']
+
+'cdp': E 
+'dt': G
+'aoi': ['B', 'L']
+
+'cdp': I 
+'dt': A
+'aoi': ['B', 'L']
+
+'cdp': I 
+'dt': G
+'aoi': ['B', 'L']
+
+'cdp': J 
+'dt': A
+'aoi': ['B', 'L']
+
+'cdp': J 
+'dt': G
+'aoi': ['B', 'L']
+
+'cdp': A 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+
+'cdp': A 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+
+'cdp': D 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+
+'cdp': D 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+
+'cdp': E 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+
+'cdp': E 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+
+'cdp': I 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+
+'cdp': I 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+
+'cdp': J 
+'dt': A
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+
+'cdp': J 
+'dt': G
+'aoi': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N']
+

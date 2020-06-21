@@ -1,0 +1,100 @@
+'cdp': E 
+'dt': G
+'aoi': A
+
+'cdp': F 
+'dt': G
+'aoi': A
+
+'cdp': G 
+'dt': G
+'aoi': A
+
+'cdp': H 
+'dt': G
+'aoi': A
+
+'cdp': I 
+'dt': G
+'aoi': A
+
+'cdp': E 
+'dt': G
+'aoi': M
+
+'cdp': F 
+'dt': G
+'aoi': M
+
+'cdp': G 
+'dt': G
+'aoi': M
+
+'cdp': H 
+'dt': G
+'aoi': M
+
+'cdp': I 
+'dt': G
+'aoi': M
+
+'cdp': E 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': F 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': G 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': H 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': I 
+'dt': G
+'aoi': ['M', 'L']
+
+'cdp': E 
+'dt': G
+'aoi': L
+
+'cdp': F 
+'dt': G
+'aoi': L
+
+'cdp': G 
+'dt': G
+'aoi': L
+
+'cdp': H 
+'dt': G
+'aoi': L
+
+'cdp': I 
+'dt': G
+'aoi': L
+
+'cdp': E 
+'dt': G
+'aoi': ['B', 'L']
+
+'cdp': F 
+'dt': G
+'aoi': ['B', 'L']
+
+'cdp': G 
+'dt': G
+'aoi': ['B', 'L']
+
+'cdp': H 
+'dt': G
+'aoi': ['B', 'L']
+
+'cdp': I 
+'dt': G
+'aoi': ['B', 'L']
+

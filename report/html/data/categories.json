@@ -1,0 +1,49 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_gl_check_text[attachment description]",
+        "uid" : "c7d93abff94c84a6",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592214265625,
+          "stop" : 1592214267822,
+          "duration" : 2197
+        },
+        "flaky" : true,
+        "parameters" : [ "'attachment description'" ]
+      }, {
+        "name" : "test_en_check_text[attachment description]",
+        "uid" : "cd22b2c27822a12f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592214268713,
+          "stop" : 1592214270916,
+          "duration" : 2203
+        },
+        "flaky" : true,
+        "parameters" : [ "'attachment description'" ]
+      }, {
+        "name" : "test_ja_check_text[attachment description]",
+        "uid" : "e61042bccacd1bba",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592214271535,
+          "stop" : 1592214273734,
+          "duration" : 2199
+        },
+        "flaky" : true,
+        "parameters" : [ "'attachment description'" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

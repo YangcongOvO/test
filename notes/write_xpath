@@ -1,0 +1,6 @@
+包含某属性
+//*[contains(@text, "example")]
+查找某属性
+//*[@text = "example"]
+多个条件
+//*[@text = "example1" and contains(@text, "example2")]

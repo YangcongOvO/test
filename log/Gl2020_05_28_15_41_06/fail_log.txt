@@ -1,0 +1,8 @@
+'cdp': C 
+'dt': A
+'aoi': A
+
+'cdp': E 
+'dt': G
+'aoi': ['M', 'L']
+
